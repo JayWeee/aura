@@ -1,0 +1,10 @@
+.header__navigation-links {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}

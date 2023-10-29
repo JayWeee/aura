@@ -1,0 +1,13 @@
+.header__navigation-link {
+  text-decoration: none;
+  color: black;
+  transition: color .2s linear;
+}
+
+.header__navigation-link:hover {
+  color: #46F4DB;
+}
+
+.header__navigation-link:active {
+  color: #57D272;
+}
