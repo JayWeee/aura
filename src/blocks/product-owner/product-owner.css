@@ -1,0 +1,10 @@
+.product-owner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 23px;
+  background-color: #EDEDF2;
+  padding: 11px 16px;
+  box-sizing: border-box;
+  max-width: 228px;
+}

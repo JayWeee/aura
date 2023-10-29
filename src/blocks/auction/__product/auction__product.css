@@ -1,0 +1,4 @@
+.auction__product {
+  display: flex;
+  gap: 32px;
+}
