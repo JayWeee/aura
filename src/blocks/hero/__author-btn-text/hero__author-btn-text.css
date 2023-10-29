@@ -1,12 +1,5 @@
 .hero__author-btn-text {
-  border-radius: 40px;
-  background-color: black;
-  color: white;
+  position: relative;
+  z-index: 1;
   padding: 20px 49px;
-}
-
-.hero__author-btn-text:hover {
-  background-image: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
-  background-color: inherit;
-  color: black;
 }

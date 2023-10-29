@@ -1,5 +1,5 @@
 .hero__author-btn {
-  background-image: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+  background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
   border: none;
   padding: 5px;
   border-radius: 40px;
@@ -7,4 +7,45 @@
   font-weight: 700;
   line-height: normal;
   cursor: pointer;
+  position: relative;
+  color: white;
+  transition: color .3s ease-in-out;
+}
+
+.hero__author-btn:hover {
+  color: black;
+}
+
+.hero__author-btn:focus {
+  color: black;
+  background: #46F4DB;
+}
+
+.hero__author-btn:active {
+  color: black;
+  background: #57D272;
+}
+
+.hero__author-btn::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  border-radius: 40px;
+  transition: opacity .3s ease-in-out;
+}
+
+.hero__author-btn:hover::after {
+  opacity: 0;
+}
+
+.hero__author-btn:focus::after {
+  background: #46F4DB;
+}
+
+.hero__author-btn:active::after {
+  background: #57D272;
 }
