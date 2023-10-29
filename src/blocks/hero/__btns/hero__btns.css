@@ -1,0 +1,4 @@
+.hero__btns {
+  display: flex;
+  gap: 32px;
+}

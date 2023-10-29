@@ -1,0 +1,12 @@
+.hero__buy-btn {
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 25px 54px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  color: #07060B;
+  background-image: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+}
